@@ -21,7 +21,7 @@ const server = http.createServer((request, response) => {
         return response.writeHead(201).end()
     }
 
-    return response.writeHead(404).end('Not Found')
+    return response.writeHead(404).end()
 })
 
 server.listen(3333)
